@@ -1,0 +1,19 @@
+{
+  "name": "food-petproject",
+  "version": "1.0.0",
+  "description": "food-petproject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bence309/food-petproject.git"
+  },
+  "author": "bence309",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bence309/food-petproject/issues"
+  },
+  "homepage": "https://github.com/bence309/food-petproject#readme"
+}
