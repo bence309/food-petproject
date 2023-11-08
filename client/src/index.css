@@ -2,5 +2,53 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  background-color: #FF0000;
+  background-color: #9c1818;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #9c1818; /* Red background for the sidebar */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  text-align: center;
+}
+
+.sidebar a {
+  display: block;
+  padding: 15px 0;
+  background-color: #FFD100; /* Yellow buttons */
+  color: #000; /* Black text */
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #FFC800; /* Darker yellow on hover */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border: 1.5px solid #0e0b01; /* Small outline */
+  border-radius: 10px; /* Rounded edges */
+  background-color: transparent; /* Transparent background */
+  color: #FFD100; /* Yellow text color */
+  text-decoration: none;
+  transition: transform 0.2s; /* Smooth transform on hover */
+}
+
+.button:hover {
+  transform: scale(1.1); /* Grow bigger on hover */
 }
