@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bence309/food-petproject/issues"
   },
-  "homepage": "https://github.com/bence309/food-petproject#readme"
+  "homepage": "https://github.com/bence309/food-petproject#readme",
+  "dependencies": {
+    "react-router-dom": "^6.18.0"
+  }
 }
