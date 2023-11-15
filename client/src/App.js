@@ -1,4 +1,3 @@
-// Inside App.js
 import React from 'react';
 import { Route } from 'react-router-dom';
 import Burgers from './Burgers'; // Adjust the path
